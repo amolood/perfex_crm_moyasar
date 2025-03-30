@@ -55,9 +55,6 @@ Edit
 1. Navigate to:
 Invoices -> Invoice Settings
 
-yaml
-Copy
-Edit
 2. Enable **Moyasar** as a payment method.
 
 ---
