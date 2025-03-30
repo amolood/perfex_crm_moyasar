@@ -89,11 +89,13 @@ $this->setSettings(
         ]
     ]
 );
+```
 
 To retrieve the secret key dynamically:
 
-
+```php
 $moyasar_secret_key = $this->getSetting('moyasar_secret_key');
+```
 
 📄 Changelog
 v1.0.0
