@@ -89,16 +89,15 @@ $this->setSettings(
         ]
     ]
 );
+
 To retrieve the secret key dynamically:
 
-php
-Copy
-Edit
+
 $moyasar_secret_key = $this->getSetting('moyasar_secret_key');
+
 📄 Changelog
 v1.0.0
 Initial release of the Moyasar integration.
-
 Supports payment collection, verification, and secure API handling.
 
 ❗️ Support & Assistance
