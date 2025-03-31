@@ -19,33 +19,26 @@ This module integrates **Moyasar Payment Gateway** with **Perfex CRM**, enabling
 ## 🛠️ Installation Instructions
 
 ### 1. Upload the Module
-- Upload the `moyasar` folder to:
-/modules/moyasar
+- Download and Upload the zip `moyasar` folder from the admin panel -> Settings -> Modules -> install
 
-markdown
-Copy
-Edit
+
 
 ### 2. Activate the Module
 - Go to **Perfex CRM Admin Panel**.
 - Navigate to:
 Setup -> Modules -> Moyasar
 
-markdown
-Copy
-Edit
+
 - Click **Activate**.
 
 ### 3. Configure Moyasar API Keys
 - Go to:
 Setup -> Settings -> Payment Gateways -> Moyasar
 
-yaml
-Copy
-Edit
+
 - Add the following credentials:
     - ✅ `Moyasar Secret Key`
-    - ✅ Currencies (Default: USD)
+    - ✅ Currencies (Default: SAR)
 
 ---
 
@@ -82,7 +75,7 @@ $this->setSettings(
         [
             'name'             => 'currencies',
             'label'            => 'settings_paymentmethod_currencies',
-            'default_value'    => 'USD',
+            'default_value'    => 'SAR',
         ]
     ]
 );
